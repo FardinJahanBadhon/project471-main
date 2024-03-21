@@ -27,6 +27,7 @@ def theme(request):
             user_theme1.user=request.user.username
             user_theme1.color='white'
             user_theme1.save()
+            #ghorar dim
 
         else:
             user4 = Theme(user=request.user.username, color='white')
